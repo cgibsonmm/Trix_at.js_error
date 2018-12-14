@@ -1,24 +1,12 @@
-# README
+This is a recreate of the error I am having with Trix editor and at.js with auto complete. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone
+2. bundle install
+3. db:migrate 
+4. rails s
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I only have auto complete looking for @jim, or @john when you attempet to auto complete the names you will recive
+````
+  The given range isn't in document.
+````
+in the console of your broswer. 
