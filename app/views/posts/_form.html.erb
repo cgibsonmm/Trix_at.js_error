@@ -1,0 +1,4 @@
+<%= simple_form_for post do |f| %>
+    <%= f.trix_editor :body, data: {behavior: 'autocomplete'} %>
+    <%= f.submit %>
+<% end %>
